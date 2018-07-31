@@ -1,5 +1,5 @@
 
-#结论<br> 
+#结论------------逻辑运算真的细节多<br> 
 ---------------------------------------------------------
 **赋值结果不等于布尔值 输出ERR<br>
 数值 字符串 等于True<br>
@@ -20,19 +20,19 @@ else :
 	print(" a = b is False");
 
 #---------------------------------------------------------
-# #数值 字符串 等于True
-# #但是None(空值)和空输入("")等于Flase 
-a = None
-if a:
-	print(a,"is True");
-else:
-	print(a,"is False");
+# # #数值 字符串 等于True,输入0为“0”
+# # #但是0,None(空值)和空输入("")等于Flase 
+# a = None
+# if a:
+# 	print(a,"is True");
+# else:
+# 	print(a,"is False");
 
-a = input();
-if a: 
-	print(a,"is True");
-else:
-	print(a,"is False");
+# a = input();
+# if a: 
+# 	print(a,type(a),"is True");
+# else:
+# 	print(a,type(a),"is False");
 
 #---------------------------------------------------------
 # #or运算下，前面为true是不会进行后面运算
